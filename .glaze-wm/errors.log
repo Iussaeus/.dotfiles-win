@@ -1,0 +1,48 @@
+10/19/2024 8:35:38 PM
+GlazeWM.Infrastructure.Exceptions.FatalUserException: Failed to parse user config. At least 1 matching regex (eg. 'match_process_name') is required in window rule config.
+   at GlazeWM.Domain.UserConfigs.CommandHandlers.EvaluateUserConfigHandler.ValidateDeserializedConfig(UserConfig deserializedConfig) in D:\a\glazewm\glazewm\GlazeWM.Domain\UserConfigs\CommandHandlers\EvaluateUserConfigHandler.cs:line 209
+   at GlazeWM.Domain.UserConfigs.CommandHandlers.EvaluateUserConfigHandler.Handle(EvaluateUserConfigCommand command) in D:\a\glazewm\glazewm\GlazeWM.Domain\UserConfigs\CommandHandlers\EvaluateUserConfigHandler.cs:line 58
+   at GlazeWM.Infrastructure.Bussing.Bus.Invoke[T](T command) in D:\a\glazewm\glazewm\GlazeWM.Infrastructure\Bussing\Bus.cs:line 48
+   at GlazeWM.Domain.UserConfigs.CommandHandlers.ReloadUserConfigHandler.Handle(ReloadUserConfigCommand command) in D:\a\glazewm\glazewm\GlazeWM.Domain\UserConfigs\CommandHandlers\ReloadUserConfigHandler.cs:line 35
+   at GlazeWM.Infrastructure.Bussing.Bus.Invoke[T](T command) in D:\a\glazewm\glazewm\GlazeWM.Infrastructure\Bussing\Bus.cs:line 48
+   at CallSite.Target(Closure, CallSite, Bus, Object)
+   at System.Dynamic.UpdateDelegates.UpdateAndExecuteVoid2[T0,T1](CallSite site, T0 arg0, T1 arg1)
+   at GlazeWM.Domain.UserConfigs.CommandHandlers.RunWithSubjectContainerHandler.Handle(RunWithSubjectContainerCommand command) in D:\a\glazewm\glazewm\GlazeWM.Domain\UserConfigs\CommandHandlers\RunWithSubjectContainerHandler.cs:line 28
+   at GlazeWM.Infrastructure.Bussing.Bus.Invoke[T](T command) in D:\a\glazewm\glazewm\GlazeWM.Infrastructure\Bussing\Bus.cs:line 48
+   at GlazeWM.Domain.UserConfigs.CommandHandlers.RegisterKeybindingsHandler.<>c__DisplayClass4_0.<Handle>b__1() in D:\a\glazewm\glazewm\GlazeWM.Domain\UserConfigs\CommandHandlers\RegisterKeybindingsHandler.cs:line 63
+Command history: HandleFatalExceptionCommand, EvaluateUserConfigCommand, ReloadUserConfigCommand, RunWithSubjectContainerCommand, FocusContainerUnderCursorCommand, FocusContainerUnderCursorCommand, FocusContainerUnderCursorCommand, FocusContainerUnderCursorCommand, FocusContainerUnderCursorCommand, FocusContainerUnderCursorCommand, FocusContainerUnderCursorCommand, FocusContainerUnderCursorCommand, FocusContainerUnderCursorCommand, FocusContainerUnderCursorCommand, FocusContainerUnderCursorCommand 
+State dump: {"id":"b3d69b12-6106-497f-ac8e-3fbb1ddfc243","x":0,"y":0,"width":0,"height":0,"type":"root","focus_index":0,"children":[{"device_name":"\\\\.\\DISPLAY1","id":"8cc597a8-0445-4b9c-a172-9a5da67f22a1","x":0,"y":0,"width":1920,"height":1080,"type":"monitor","focus_index":0,"children":[{"tiling_direction":"horizontal","size_percentage":1,"name":"1","id":"68367d6c-79d1-4865-849a-a1630a036ce9","x":0,"y":0,"width":1920,"height":1050,"type":"workspace","focus_index":0,"children":[{"floating_placement":{"left":160,"top":75,"right":1760,"bottom":975,"x":160,"y":75,"width":1600,"height":900},"border_delta":{"left":0,"top":0,"right":0,"bottom":0},"handle":66482,"previous_state":"tiling","id":"23994c28-10b0-408a-90af-a1ec03159d97","x":0,"y":0,"width":0,"height":0,"type":"window","focus_index":1,"children":[]},{"floating_placement":{"left":396,"top":208,"right":1525,"bottom":843,"x":396,"y":208,"width":1129,"height":635},"border_delta":{"left":7,"top":0,"right":7,"bottom":7},"handle":460126,"size_percentage":1,"id":"02549098-d762-4005-88b6-f1e995633aef","x":0,"y":0,"width":1920,"height":1050,"type":"window","focus_index":0,"children":[]}]},{"tiling_direction":"horizontal","size_percentage":0,"name":"2","id":"7f35e87d-759b-4dd5-83f0-25072708525a","x":0,"y":0,"width":1920,"height":1050,"type":"workspace","focus_index":2,"children":[{"floating_placement":{"left":-7,"top":-3,"right":1927,"bottom":1054,"x":-7,"y":-3,"width":1934,"height":1057},"border_delta":{"left":7,"top":0,"right":7,"bottom":7},"handle":131642,"size_percentage":1,"id":"23dfe5c2-2b14-4e5c-9beb-0fcfec87cd59","x":0,"y":0,"width":1920,"height":1050,"type":"window","focus_index":0,"children":[]}]},{"tiling_direction":"horizontal","size_percentage":0,"name":"5","id":"af8c0c8c-aaca-4353-8493-b48ea06d0da2","x":0,"y":0,"width":1920,"height":1050,"type":"workspace","focus_index":1,"children":[{"floating_placement":{"left":-7,"top":-3,"right":1927,"bottom":1054,"x":-7,"y":-3,"width":1934,"height":1057},"border_delta":{"left":7,"top":0,"right":7,"bottom":7},"handle":395026,"size_percentage":1,"id":"58025ee3-c461-4055-9bb2-7a57515fc98c","x":0,"y":0,"width":1920,"height":1050,"type":"window","focus_index":0,"children":[]}]}]}]}
+
+10/19/2024 8:36:36 PM
+GlazeWM.Infrastructure.Exceptions.FatalUserException: Failed to parse user config. Invalid command 'focus workspace 1'.
+   at GlazeWM.Domain.UserConfigs.CommandHandlers.EvaluateUserConfigHandler.ValidateDeserializedConfig(UserConfig deserializedConfig) in D:\a\glazewm\glazewm\GlazeWM.Domain\UserConfigs\CommandHandlers\EvaluateUserConfigHandler.cs:line 209
+   at GlazeWM.Domain.UserConfigs.CommandHandlers.EvaluateUserConfigHandler.Handle(EvaluateUserConfigCommand command) in D:\a\glazewm\glazewm\GlazeWM.Domain\UserConfigs\CommandHandlers\EvaluateUserConfigHandler.cs:line 58
+   at GlazeWM.Infrastructure.Bussing.Bus.Invoke[T](T command) in D:\a\glazewm\glazewm\GlazeWM.Infrastructure\Bussing\Bus.cs:line 41
+   at GlazeWM.Domain.Common.CommandHandlers.PopulateInitialStateHandler.Handle(PopulateInitialStateCommand command) in D:\a\glazewm\glazewm\GlazeWM.Domain\Common\CommandHandlers\PopulateInitialStateHandler.cs:line 41
+   at GlazeWM.Infrastructure.Bussing.Bus.Invoke[T](T command) in D:\a\glazewm\glazewm\GlazeWM.Infrastructure\Bussing\Bus.cs:line 41
+   at GlazeWM.App.WindowManager.WmStartup.Run()
+Command history: HandleFatalExceptionCommand, EvaluateUserConfigCommand, PopulateInitialStateCommand 
+State dump: {"id":"d2cc1190-e442-4874-964a-c37d1a9c98e1","x":0,"y":0,"width":0,"height":0,"type":"root","focus_index":0,"children":[]}
+
+10/19/2024 8:37:05 PM
+GlazeWM.Infrastructure.Exceptions.FatalUserException: Failed to parse user config. Invalid command 'focus workspace 1'.
+   at GlazeWM.Domain.UserConfigs.CommandHandlers.EvaluateUserConfigHandler.ValidateDeserializedConfig(UserConfig deserializedConfig) in D:\a\glazewm\glazewm\GlazeWM.Domain\UserConfigs\CommandHandlers\EvaluateUserConfigHandler.cs:line 209
+   at GlazeWM.Domain.UserConfigs.CommandHandlers.EvaluateUserConfigHandler.Handle(EvaluateUserConfigCommand command) in D:\a\glazewm\glazewm\GlazeWM.Domain\UserConfigs\CommandHandlers\EvaluateUserConfigHandler.cs:line 58
+   at GlazeWM.Infrastructure.Bussing.Bus.Invoke[T](T command) in D:\a\glazewm\glazewm\GlazeWM.Infrastructure\Bussing\Bus.cs:line 41
+   at GlazeWM.Domain.Common.CommandHandlers.PopulateInitialStateHandler.Handle(PopulateInitialStateCommand command) in D:\a\glazewm\glazewm\GlazeWM.Domain\Common\CommandHandlers\PopulateInitialStateHandler.cs:line 41
+   at GlazeWM.Infrastructure.Bussing.Bus.Invoke[T](T command) in D:\a\glazewm\glazewm\GlazeWM.Infrastructure\Bussing\Bus.cs:line 41
+   at GlazeWM.App.WindowManager.WmStartup.Run()
+Command history: HandleFatalExceptionCommand, EvaluateUserConfigCommand, PopulateInitialStateCommand 
+State dump: {"id":"3aa82a88-6648-4959-8ef3-6ec382cf6041","x":0,"y":0,"width":0,"height":0,"type":"root","focus_index":0,"children":[]}
+
+10/19/2024 8:37:38 PM
+GlazeWM.Infrastructure.Exceptions.FatalUserException: Failed to parse user config. Invalid command 'focus workspace 1'.
+   at GlazeWM.Domain.UserConfigs.CommandHandlers.EvaluateUserConfigHandler.ValidateDeserializedConfig(UserConfig deserializedConfig) in D:\a\glazewm\glazewm\GlazeWM.Domain\UserConfigs\CommandHandlers\EvaluateUserConfigHandler.cs:line 209
+   at GlazeWM.Domain.UserConfigs.CommandHandlers.EvaluateUserConfigHandler.Handle(EvaluateUserConfigCommand command) in D:\a\glazewm\glazewm\GlazeWM.Domain\UserConfigs\CommandHandlers\EvaluateUserConfigHandler.cs:line 58
+   at GlazeWM.Infrastructure.Bussing.Bus.Invoke[T](T command) in D:\a\glazewm\glazewm\GlazeWM.Infrastructure\Bussing\Bus.cs:line 41
+   at GlazeWM.Domain.Common.CommandHandlers.PopulateInitialStateHandler.Handle(PopulateInitialStateCommand command) in D:\a\glazewm\glazewm\GlazeWM.Domain\Common\CommandHandlers\PopulateInitialStateHandler.cs:line 41
+   at GlazeWM.Infrastructure.Bussing.Bus.Invoke[T](T command) in D:\a\glazewm\glazewm\GlazeWM.Infrastructure\Bussing\Bus.cs:line 41
+   at GlazeWM.App.WindowManager.WmStartup.Run()
+Command history: HandleFatalExceptionCommand, EvaluateUserConfigCommand, PopulateInitialStateCommand 
+State dump: {"id":"33af3d4f-6f91-4b24-b15d-656a2f2462ac","x":0,"y":0,"width":0,"height":0,"type":"root","focus_index":0,"children":[]}
+

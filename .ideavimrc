@@ -1,0 +1,96 @@
+set multiple-cursors
+set commentary
+set surround
+set ideajoin
+set NERDTree
+set relativenumber
+set ignorecase
+set incsearch
+
+nmap <S-Enter> O<Esc>
+
+" Set leader key
+let mapleader = " "
+
+
+" Move code in visual mode
+vmap J :m '>+1<CR>gv=gv
+vmap K :m '<-2<CR>gv=gv
+
+" Yank stuff in void register when pasting
+xmap <leader>p "_dP
+
+" Center the cursor when navigating the code
+nmap <C-d> <C-d>zz
+nmap <C-u> <C-u>zz
+nmap j jzz
+nmap k kzz
+
+nmap n nzzzv
+nmap N Nzzzv
+
+
+" Copy stuff to + register (clipboard)
+nmap <leader>y "+y
+vmap <leader>y "+y
+nmap <leader>Y "+Y
+
+" actions
+nmap <leader>h <action>(PreviousTab)
+nmap <leader>l <action>(NextTab)
+nmap <leader>bd <action>(CloseEditor)
+nmap <leader>i <action>(Generate)
+nmap <leader>g <action>(Git.Menu)
+map <leader>vd <action>(ShowErrorDescription)
+nmap <leader>e <action>(GotoNextError)
+nmap <leader>s <action>(Switcher)
+map <leader>rn <Action>(RenameElement)
+
+" Pane navigation
+nnoremap <A-h> <C-w>h
+nnoremap <A-l> <C-w>l
+nnoremap <A-k> <C-w>k
+nnoremap <A-j> <C-w>j
+
+" Open NERDTree (use q to exit)
+map <leader>pv :NERDTreeToggle<CR>
+
+" Go to code
+nmap <leader>gd <Action>(GotoDeclaration)
+nmap <leader>gy <Action>(GotoTypeDeclaration)
+nmap <leader>gi <Action>(GotoImplementation)
+nmap <leader>gu <Action>(ShowUsages)
+nmap <leader>gt <Action>(GotoTest)
+
+" Remap multiple-cursors shortcuts to match terryma/vim-multiple-cursors
+nmap <C-n> <Plug>NextWholeOccurrence
+xmap <C-n> <Plug>NextWholeOccurrence
+nmap g<C-n> <Plug>NextOccurrence
+xmap g<C-n> <Plug>NextOccurrence
+xmap <C-s> <Plug>SkipOccurrence
+xmap <C-p> <Plug>RemoveOccurrence
+nmap <leader><C-n> <Plug>AllWholeOccurrences
+xmap <leader><C-n> <Plug>AllWholeOccurrences
+
+" Execute last recorded macro on q register
+nmap Q @q
+
+" Harpoon
+nmap <leader>a <Action>(AddToHarpoon)
+nmap <C-e> <Action>(ShowHarpoon)
+
+nmap <A-h> <Action>(GotoHarpoon1)
+nmap <A-j> <Action>(GotoHarpoon2)
+nmap <A-k> <Action>(GotoHarpoon3)
+nmap <A-l> <Action>(GotoHarpoon4)
+
+" Convenient shortcuts for terminal and other stuff
+nmap <leader>r <Action>(Run)
+nmap <leader>tr <Action>(ActivateRunToolWindow)
+nmap <leader>t <Action>(ActivateTerminalToolWindow)
+nmap <leader>H <Action>(HideActiveWindow)
+
+" Telescope-ish
+map <Leader>pf <action>(com.mituuz.fuzzier.Fuzzier)
+map <Leader>mf <action>(com.mituuz.fuzzier.FuzzyMover)
+map <Leader>gf <action>(com.mituuz.fuzzier.FuzzierVCS)
