@@ -1,18 +1,20 @@
 Write-Host "Installing applications using winget..."
 
 winget upgrade --all
+sudo winget source remove msstore
 
 $apps = @(
-	"GlazeWM",
+	"glzr-io.glazewm",
 	"Mozilla.Firefox",
-	"Chocolatey",
+	"Chocolatey.Chocolatey",
 	"Microsoft.PowerToys",
-	"Telegram.Desktop",
-	"Spotify",
-	"Neovim",
-	"Git",
-	"NVIDIA.GeForceExperience",
-	"neofetch-win"
+	"64Gram.64Gram",
+	"Spotify.Spotify",
+	"Neovim.Neovim",
+	"Fastfetch-cli.Fastfetch",
+	"GitHub.cli",
+	"JetBrains.Rider",
+	"qBittorrent.qBittorrent"
 )
 
 foreach ($app in $apps)

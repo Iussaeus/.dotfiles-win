@@ -1,0 +1,59 @@
+[2m2024-10-23T19:34:23.565760Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m general: missing field `cursor_jump` at line 3 column 3
+[2m2024-10-23T19:34:28.035011Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m general: missing field `cursor_jump` at line 3 column 3
+[2m2024-10-23T19:34:35.361435Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m general: missing field `cursor_jump` at line 3 column 3
+[2m2024-10-23T19:39:14.150384Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m found character that cannot start any token at line 122 column 1, while scanning for the next token
+[2m2024-10-23T19:40:40.168603Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m found character that cannot start any token at line 130 column 1, while scanning for the next token
+[2m2024-10-23T19:42:42.464436Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m found character that cannot start any token at line 130 column 1, while scanning for the next token
+[2m2024-10-23T19:42:59.853537Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m found character that cannot start any token at line 130 column 1, while scanning for the next token
+[2m2024-10-23T19:43:12.910957Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m found character that cannot start any token at line 131 column 3, while scanning for the next token
+[2m2024-10-23T19:44:39.062046Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m found character that cannot start any token at line 133 column 2, while scanning for the next token
+[2m2024-10-23T19:44:56.838586Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m did not find expected key at line 133 column 1, while parsing a block mapping
+[2m2024-10-23T19:46:19.372335Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m did not find expected key at line 133 column 1, while parsing a block mapping
+[2m2024-10-23T19:51:27.134311Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].commands: unexpected argument found
+ at line 134 column 15
+[2m2024-10-23T19:51:47.657944Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1]: missing field `commands` at line 133 column 5
+[2m2024-10-23T19:52:00.248558Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].commands: unexpected argument found
+ at line 134 column 15
+[2m2024-10-23T19:52:57.973080Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1]: missing field `match` at line 133 column 5
+[2m2024-10-23T19:53:51.237663Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].match: invalid type: map, expected a sequence at line 135 column 7
+[2m2024-10-23T19:54:15.277604Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].match: invalid type: map, expected a sequence at line 135 column 7
+[2m2024-10-23T19:54:29.819619Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[2].commands: invalid type: string "move --workspace 2", expected a sequence at line 136 column 15
+[2m2024-10-23T19:54:37.999735Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[2].commands: invalid type: string "move --workspace 2", expected a sequence at line 136 column 15
+[2m2024-10-23T20:02:21.003154Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].commands: unexpected argument found
+ at line 131 column 15
+[2m2024-10-23T20:02:38.047220Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].commands: unexpected argument found
+ at line 131 column 15
+[2m2024-10-23T20:03:03.114164Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].commands: unexpected argument found
+ at line 131 column 15
+[2m2024-10-23T20:03:22.368060Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[3].match[0]: data did not match any variant of untagged enum MatchType at line 138 column 9
+[2m2024-10-23T20:03:59.438309Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[3].match[0]: data did not match any variant of untagged enum MatchType at line 138 column 9
+[2m2024-10-23T20:04:14.942995Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[3].match[0]: data did not match any variant of untagged enum MatchType at line 138 column 9
+[2m2024-10-23T20:04:36.458783Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[3]: missing field `commands` at line 136 column 5
+[2m2024-10-23T20:04:48.526540Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[3]: missing field `commands` at line 136 column 5
+[2m2024-10-24T06:27:40.994105Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Workspace with name '1' doesn't exist or is already active.
+[2m2024-10-24T11:03:18.270046Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2024-10-25T09:21:29.154518Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2024-10-25T09:21:43.849864Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2024-10-25T09:23:11.510356Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2024-10-25T09:48:19.006851Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2024-10-26T09:01:49.059278Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2024-10-26T09:02:15.088825Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2024-11-08T15:21:28.575065Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[8].commands: unrecognized subcommand
+ at line 151 column 15
+[2m2024-11-08T15:21:31.697065Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[8].commands: unrecognized subcommand
+ at line 151 column 15
+[2m2024-11-08T15:21:32.269872Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[8].commands: unrecognized subcommand
+ at line 151 column 15
+[2m2024-11-08T15:21:58.678921Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[8].commands: unrecognized subcommand
+ at line 151 column 15
+[2m2025-01-11T12:09:22.219774Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-02-22T17:14:06.105025Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute 'tabby'.\n\nError: The operation was canceled by the user. (0x800704C7)"
+[2m2025-02-22T17:15:07.245484Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m did not find expected key at line 202 column 3, while parsing a block mapping
+[2m2025-02-22T17:15:17.176669Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m did not find expected key at line 199 column 6, while parsing a block mapping at line 198 column 5
+[2m2025-02-22T17:20:38.734859Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute 'tabby'.\n\nError: The operation was canceled by the user. (0x800704C7)"
+[2m2025-02-22T17:20:42.543376Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[16].commands: unexpected argument found
+ at line 241 column 15
+[2m2025-02-22T17:20:56.989551Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[16].commands: unexpected argument found
+ at line 241 column 15
+[2m2025-02-22T17:21:11.951332Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute '\"C:/Users/John/AppData/Local/Programs/Tabby/Tabby.exe\"'.\n\nError: Command doesn't have an ending `\"`: '\"C:/Users/John/AppData/Local/Programs/Tabby/Tabby.exe\"'."
+[2m2025-02-22T17:27:27.744286Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[11].match: invalid type: map, expected a sequence at line 162 column 9

@@ -4,7 +4,7 @@ $currentDir = Get-Location
 $homeDir = [System.Environment]::GetFolderPath('UserProfile')
 
 # List of folders and files to create symlinks for
-$items = @(".config", ".glaze-wm", ".ideavimrc", ".gitconfig")
+$items = @(".config", ".glzr", ".ideavimrc", ".gitconfig")
 
 # Create the directory if it doesn't exist
 $profileDir = Split-Path $PROFILE -Parent
